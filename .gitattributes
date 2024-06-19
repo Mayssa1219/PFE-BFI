@@ -1,0 +1,11 @@
+# Change the language statistics to TypeScript for the project
+*.ts linguist-language=TypeScript
+
+# Optionally, you can also set the language for HTML and CSS files if needed
+*.html linguist-language=HTML
+*.css linguist-language=CSS
+*.scss linguist-language=SCSS
+
+# Ignore specific files or folders from being counted in language statistics
+/node_modules/* linguist-vendored
+/dist/* linguist-vendored
