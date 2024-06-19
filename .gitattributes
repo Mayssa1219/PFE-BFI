@@ -1,11 +1,12 @@
-# Change the language statistics to TypeScript for the project
-*.ts linguist-language=TypeScript
+# Auto detect text files and perform LF normalization
+* text=auto
 
-# Optionally, you can also set the language for HTML and CSS files if needed
-*.html linguist-language=HTML
-*.css linguist-language=CSS
-*.scss linguist-language=SCSS
-
-# Ignore specific files or folders from being counted in language statistics
-/node_modules/* linguist-vendored
-/dist/* linguist-vendored
+# JS and TS files must always use LF for tools to work
+*.js eol=lf
+*.ts eol=lf
+*.json eol=lf
+*.css eol=lf
+*.scss eol=lf
+*.less eol=lf
+*.html eol=lf
+*.svg eol=lf
